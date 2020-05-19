@@ -4,7 +4,7 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << self.object_id
+    @@all << self
   end
 
   def self.all
